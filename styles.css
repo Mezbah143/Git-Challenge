@@ -1,0 +1,83 @@
+/* Reset default browser styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+/* Box sizing border-box */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Set body background color and font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Set article container styles */
+article {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Image styles */
+figure {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* List styles */
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+/* Blockquote styles */
+blockquote {
+    font-style: italic;
+    color: #666;
+    padding: 10px;
+    border-left: 3px solid #ccc;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    article {
+        padding: 10px;
+    }
+}
